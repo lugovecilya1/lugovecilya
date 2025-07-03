@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  static const routeName = '/main';
+  const HomeScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Главная')),
+      body: const Center(
+        child: Text('Добро пожаловать!'),
+      ),
+    );
+  }
+}
